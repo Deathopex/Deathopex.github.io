@@ -1,0 +1,44 @@
+@font-face {
+font-family: MC; 
+src: url(/design/mc.ttf); 
+}
+
+#button {
+image-rendering: pixelated;
+background: #ccc url('design/button.png') no-repeat top left;
+background-size: 200px 50px;
+text-align: center;
+width: 200px;
+height: 50px;
+font-family: TIT, 'Comic Sans MS', cursive;
+color: white;
+font-size: 20px;
+}
+
+body {
+background-image: url('/bedrock.png');
+background-size: 90px 90px;
+image-rendering: pixelated;
+}
+
+
+
+#tb {
+font-family: MC, 'Comic Sans MS', cursive;
+color: white;
+text-align: center;
+background-color: gray;
+border: 2px solid white;
+}
+
+
+#icon {
+height: 185px;
+width:  185px;
+}
+
+
+#image {
+height: 30%
+}
+
