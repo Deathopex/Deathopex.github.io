@@ -25,17 +25,17 @@
          
          if (useragent.search("Android") != -1) {
           useragent = "Android";
-		  document.location.href = 'bedrockrp/mobile_redirect.html'
+		  document.location.href = '/bedrockrp/mobile_redirect.html'
          }
          
          if (useragent.search("Windows") != -1) {
           useragent = "Windows";
-		  document.location.href = 'bedrockrp/index_desktop.html'
+		  document.location.href = '/bedrockrp/index_desktop.html'
          }
          
          if (useragent.search("Linux") != -1 && useragent.search("Android") == -1) {
          useragent = "Linux";
-		 document.location.href = 'bedrockrp/index_desktop.html'
+		 document.location.href = '/bedrockrp/index_desktop.html'
          }
          return useragent;
          }
